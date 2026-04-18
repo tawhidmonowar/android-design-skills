@@ -1,7 +1,7 @@
 # Android Design Skills
 
 [![Agent Skills](https://img.shields.io/badge/Agent-Skills-blue?style=flat&logo=github)](https://agentskills.io)
-[![Android](https://img.shields.io/badge/Android-Modern-green?style=flat&logo=android)](https://developer.android.com)
+[![Android](https://img.shields.io/badge/Android-Design-green?style=flat&logo=android)](https://developer.android.com)
 
 Welcome to **Awesome Android Agent Skills**, a repository of specialized "brains" for your AI coding assistants. This project provides a suite of **Agent Skills** designed to supercharge GitHub Copilot, Claude, Google Gemini, Cursor and other agentic AI tools with expert knowledge of modern Android development.
 
