@@ -4,13 +4,13 @@ This repository contains an Android application project. When working on the pro
 
 ## 1. Project Specifications
 - **Minimum SDK:** 24 (or defined by project)
-- **Target SDK:** 35
+- **Target SDK:** 34
 - **Language:** Kotlin (1.9+)
 - **Build System:** Gradle (Kotlin DSL preferred)
 
 ## 2. Architecture & Design Patterns
 We follow the official Android Architecture Guidelines:
-- **Presentation Layer:** StateFlow/SharedFlow in ViewModels. UI defined in Jetpack Compose. Unidirectional Data Flow (UDF).
+- **Presentation Layer:** StateFlow/SharedFlow in ViewModels. UI defined in Jetpack Compose (or XML if legacy). Unidirectional Data Flow (UDF).
 - **Domain Layer:** Optional UseCases for complex business logic.
 - **Data Layer:** Repository pattern to abstract data sources (Room for local, Retrofit for remote).
 - **Dependency Injection:** Hilt/Dagger (preferred) or Koin.
@@ -35,8 +35,12 @@ We follow the official Android Architecture Guidelines:
 
 | Skill Folder          | Purpose                                            |
 | --------------------- | -------------------------------------------------- |
+| `architecture/`       | Clean architecture, ViewModels, and Data Layer.    |
 | `ui/`                 | Jetpack Compose best practices, Coil, Accessibility. |
-
+| `performance/`        | Auditing Compose and Gradle build performance.     |
+| `migration/`          | XML to Compose, RxJava to Coroutines.              |
+| `testing_and_automation/` | Unit/UI Testing setup, Emulator automation scripts. |
+| `concurrency_and_networking/` | Coroutines fixes, Retrofit networking.             |
 
 ---
 
