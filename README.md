@@ -98,3 +98,29 @@ Ask your agent to apply one of the skills directly, for example:
 - `Read .github/skills/foundation/layout/adaptive-layouts/SKILL.md and refactor this screen for tablets.`
 - `Use the form-layouts skill to clean up this checkout form.`
 - `Apply the edge-to-edge-layout skill to this Compose screen.`
+
+
+
+
+
+
+skills/
+├── android-layout-foundation/
+├── android-material3-design/
+├── android-compose-components/
+├── android-compose-performance/
+├── android-adaptive-ui/
+├── android-accessibility/
+├── android-navigation-scaffold/
+├── android-screen-patterns/
+├── android-ui-review/
+└── android-production-quality/
+android-animation-motion/
+android-theme-system/
+android-design-system/
+android-form-validation/
+android-permission-ui/
+android-empty-error-loading-states/
+android-play-store-screenshot-ui/
+android-wear-tv-large-screen/
+android-compose-testing-ui/
